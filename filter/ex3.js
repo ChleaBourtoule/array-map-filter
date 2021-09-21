@@ -33,7 +33,7 @@ Expected OUTPUT for these sample arguments:
 */
 
 function filterOnPrice(products, maxPrice) {
-  return product.filter((price) => price <= 500);
+  return products.filter((name, price) => price <= 500);
 }
 
 console.log(filterOnPrice([
